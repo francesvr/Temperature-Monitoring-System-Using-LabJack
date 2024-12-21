@@ -4,7 +4,7 @@
     Author: Frances Resma
     Date: December 6, 2024
     Purpose: This program interfaces with a temperature sensor, buzzer, and LED.
-	TThe PWM is set up in the beginning of the code with setting FIO4 as the 
+	The PWM is set up in the beginning of the code with setting FIO4 as the 
 	channel to send the PWM signal to, with divisor as 48MHz/DIV, with divisor of 47, 
 	1 as number of time enabled, and 8-bit timer mode. The program starts off with LED 
 	off by DAC0 sending a high signal. Then, the user is asked for the temperature threshold 
